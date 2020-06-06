@@ -1,4 +1,4 @@
-# Projeto Portfolio Service <img src="https://img.icons8.com/ios/50/000000/management.png"/>
+# Projeto Portfolio Service <img src="https://img.icons8.com/ios/50/000000/cloud-database.png"/>
 Projeto de serviços REST para atendimento às interfaces relacionadas
 
 - [x] **Definições do projeto**
