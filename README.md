@@ -32,7 +32,7 @@ Projeto de serviços REST para atendimento às interfaces relacionadas
 		  - [ ] Nome
 		  - [ ] Tipo
 -------
-- [ ] <img src="https://img.icons8.com/color/40/000000/gears.png"/> **3 - Interface administrativa**
+- [ ] <img src="https://img.icons8.com/color/40/000000/gears.png"/> **3 - Funcionalidades administrativas**
   - [ ] Gerenciamento dos elementos no item 1
   	- [ ] <img src="https://img.icons8.com/dusk/40/000000/enterprise-resource-planning.png"/> Em breve...
   - [ ] Gerenciamento dos elementos no item 2
