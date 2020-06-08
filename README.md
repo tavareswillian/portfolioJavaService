@@ -8,7 +8,7 @@ Projeto de serviços REST para atendimento às interfaces relacionadas
 - [ ] **1 - Cadastro, Consulta, Atualização, Remoção e Listagem de**
   - [ ] <img src="https://img.icons8.com/ios-glyphs/30/000000/login-as-user.png"/> Usuários
   - [ ] <img src="https://img.icons8.com/material/30/000000/user-menu-male--v1.png"/> Perfis
-- [ ] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
+  - [ ] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
   - [ ] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
   - [ ] <img src="https://img.icons8.com/color/30/000000/swiss-army-knife.png"/> Funcionalidades
   - [ ] <img src="https://img.icons8.com/color/30/000000/wish-list.png"/> Listas
