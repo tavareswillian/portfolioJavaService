@@ -1,12 +1,12 @@
-# Projeto Portfolio Service <img src="https://img.icons8.com/color/50/000000/api-settings.png"/>
-Projeto de serviços REST para atendimento às interfaces relacionadas
+# Projeto Portfolio Service <table style="border: 0px"><tr><td><img src="https://img.icons8.com/color/50/000000/api-settings.png"/> </td> <td><img src="https://img.icons8.com/color/30/000000/spring-logo.png"/></td><td> <img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/></td></tr></table>
+Projeto utilizando Spring Boot para criação de uma API REST para atendimento às interfaces relacionadas. Utilização de JPA para acesso ao banco de dados MySQL.
 
 - [x] **Definições do projeto**
   - [x] Criar repositório no GitHub
   - [ ] Criar issue para controle das tarefas
 -------
 - [ ] **1 - Cadastro, Consulta, Atualização, Remoção e Listagem de**
-  - [ ] <img src="https://img.icons8.com/ios-glyphs/30/000000/login-as-user.png"/> Usuários
+  - [x] <img src="https://img.icons8.com/ios-glyphs/30/000000/login-as-user.png"/> Usuários
   - [ ] <img src="https://img.icons8.com/material/30/000000/user-menu-male--v1.png"/> Perfis
   - [ ] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
   - [ ] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
