@@ -2,15 +2,8 @@
 <table>
 	<tr>
 		<td>
-			<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107"><img src="https://img.icons8.com/color/50/000000/api-settings.png"/></a>  
-		
-			<img src="https://img.icons8.com/flat_round/50/000000/plus.png"/>
-		
-			<a href="https://spring.io/"><img src="https://img.icons8.com/color/50/000000/spring-logo.png"/></a>
-		
-			<img src="https://img.icons8.com/flat_round/50/000000/plus.png"/> 
-		
-			<a href="https://www.mysql.com/"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/></a>			</td>
+			<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107"><img src="https://img.icons8.com/color/50/000000/api-settings.png"/></a><img src="https://img.icons8.com/flat_round/50/000000/plus.png"/><a href="https://spring.io/"><img src="https://img.icons8.com/color/50/000000/spring-logo.png"/></a><img src="https://img.icons8.com/flat_round/50/000000/plus.png"/><a href="https://www.mysql.com/"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/></a>
+		</td>
 	</tr>
 </table>
 
