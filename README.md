@@ -1,27 +1,27 @@
 # Projeto Portfolio Service 
-<table style="border-width: 0px;">
+<table>
 	<tr>
 		<td>
 			<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107"><img src="https://img.icons8.com/color/50/000000/api-settings.png"/></a>  
-		<td>
+		
 			<img src="https://img.icons8.com/flat_round/50/000000/plus.png"/>
-		</td>
-		<td>
+		
 			<a href="https://spring.io/"><img src="https://img.icons8.com/color/50/000000/spring-logo.png"/></a>
-		</td>
-		<td>
+		
 			<img src="https://img.icons8.com/flat_round/50/000000/plus.png"/> 
-		</td>
-		<td>
+		
 			<a href="https://www.mysql.com/"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/></a>			</td>
 	</tr>
 </table>
+
 Projeto utilizando Spring Boot para criação de uma API REST para atendimento às interfaces relacionadas. Utilização de JPA para acesso ao banco de dados MySQL.
-------
+
+
 - [x] **Definições do projeto**
   - [x] Criar repositório no GitHub
   - [ ] Criar issue para controle das tarefas
 -------
+
 - [ ] **1 - Cadastro, Consulta, Atualização, Remoção e Listagem de**
   - [x] <img src="https://img.icons8.com/ios-glyphs/30/000000/login-as-user.png"/> Usuários
   - [ ] <img src="https://img.icons8.com/material/30/000000/user-menu-male--v1.png"/> Perfis
