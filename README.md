@@ -27,7 +27,7 @@ Projeto construído com Spring Boot para criação de uma API REST que atenderá
   - [x] <img src="https://img.icons8.com/material/30/000000/user-menu-male--v1.png"/> Perfis
   - [x] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
   - [x] <img src="https://img.icons8.com/color/30/000000/swiss-army-knife.png"/> Funcionalidades
-  - [ ] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
+  - [x] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
   - [ ] <img src="https://img.icons8.com/color/30/000000/wish-list.png"/> Listas
   - [ ] <img src="https://img.icons8.com/windows/30/000000/github.png"/> Repositórios (local/web do usuário para facilitar o preenchimento)
   - [ ] <img src="https://img.icons8.com/cotton/30/000000/import-file.png"/> Documentos
