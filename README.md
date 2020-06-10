@@ -2,7 +2,15 @@
 <table>
 	<tr>
 		<td>
-			<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107"><img src="https://img.icons8.com/color/50/000000/api-settings.png"/></a> <img src="https://img.icons8.com/flat_round/50/000000/plus.png"/><a href="https://spring.io/"><img src="https://img.icons8.com/color/50/000000/spring-logo.png"/></a> <img src="https://img.icons8.com/flat_round/50/000000/plus.png"/> <a href="https://www.mysql.com/"><img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/></a>
+		<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107">
+			<img src="https://img.icons8.com/color/50/000000/api-settings.png"/>
+		</a>
+		<a href="https://spring.io/">
+			<img src="https://img.icons8.com/color/50/000000/spring-logo.png"/>
+		</a>
+		<a href="https://www.mysql.com/">
+			<img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
+		</a>
 		</td>
 	</tr>
 </table>
@@ -18,7 +26,7 @@ Projeto utilizando Spring Boot para criação de uma API REST para atendimento �
 - [ ] **1 - Cadastro, Consulta, Atualização, Remoção e Listagem de**
   - [x] <img src="https://img.icons8.com/ios-glyphs/30/000000/login-as-user.png"/> Usuários
   - [x] <img src="https://img.icons8.com/material/30/000000/user-menu-male--v1.png"/> Perfis
-  - [ ] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
+  - [x] <img src="https://img.icons8.com/office/30/000000/test-passed.png"/> Permissões
   - [ ] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
   - [x] <img src="https://img.icons8.com/color/30/000000/swiss-army-knife.png"/> Funcionalidades
   - [ ] <img src="https://img.icons8.com/color/30/000000/wish-list.png"/> Listas
