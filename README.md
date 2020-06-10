@@ -12,7 +12,7 @@
 			<img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
 		</a>
 		<a href="https://swagger.io/">
-			<img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/>
+			<img src="https://avatars2.githubusercontent.com/u/7658037?s=50&v=4"/>
 		</a>
 		</td>
 	</tr>
