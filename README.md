@@ -1,4 +1,4 @@
-# Projeto Portfolio Service 
+# Projeto Portfolio API 
 <table>
 	<tr>
 		<td>
@@ -11,11 +11,14 @@
 		<a href="https://www.mysql.com/">
 			<img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
 		</a>
+		<a href="https://swagger.io/">
+			<img src="https://avatars2.githubusercontent.com/u/7658037?s=50&v=4"/>
+		</a>
 		</td>
 	</tr>
 </table>
 
-Projeto construído com Spring Boot para criação de uma API REST que atenderá às interfaces relacionadas utilizando JPA para acesso ao banco de dados MySQL.
+Projeto construído com Spring Boot para criação de uma API REST que atenderá às interfaces relacionadas ao gerenciamento de usuários, permisões, eventos, etc. utilizando JPA para acesso ao banco de dados MySQL.
 
 
 - [x] **Definições do projeto**
@@ -55,4 +58,6 @@ Projeto construído com Spring Boot para criação de uma API REST que atenderá
   - [ ] Gerenciamento dos elementos no item 2
   	- [ ] <img src="https://img.icons8.com/dusk/40/000000/enterprise-resource-planning.png"/> Em breve...
 -------
-- [ ] <img src="https://img.icons8.com/material/30/000000/log.png"/> **4 - Registro de log**
+- [ ] **4 - Ferramentas**
+  - [x] <a href="https://swagger.io/"><img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/></a> Swagger
+  - [ ] <img src="https://img.icons8.com/material/40/000000/log.png"/> Registro de log
