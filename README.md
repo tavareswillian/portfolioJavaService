@@ -11,6 +11,9 @@
 		<a href="https://www.mysql.com/">
 			<img src="https://img.icons8.com/ios-filled/50/000000/mysql-logo.png"/>
 		</a>
+		<a href="https://swagger.io/">
+			<img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/>
+		</a>
 		</td>
 	</tr>
 </table>
@@ -56,5 +59,5 @@ Projeto construído com Spring Boot para criação de uma API REST que atenderá
   	- [ ] <img src="https://img.icons8.com/dusk/40/000000/enterprise-resource-planning.png"/> Em breve...
 -------
 - [ ] **4 - Ferramentas**
-  - [x] <img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/> Swagger
+  - [x] <a href="https://swagger.io/"><img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/></a> Swagger
   - [ ] <img src="https://img.icons8.com/material/40/000000/log.png"/> Registro de log
