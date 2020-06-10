@@ -18,4 +18,32 @@ public class Politica implements Serializable{
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long idPolitica;
 
+	private String nmPolitica;
+	
+	private String dsPolitica;
+
+	public long getIdPolitica() {
+		return idPolitica;
+	}
+
+	public void setIdPolitica(long idPolitica) {
+		this.idPolitica = idPolitica;
+	}
+
+	public String getNmPolitica() {
+		return nmPolitica;
+	}
+
+	public void setNmPolitica(String nmPolitica) {
+		this.nmPolitica = nmPolitica;
+	}
+
+	public String getDsPolitica() {
+		return dsPolitica;
+	}
+
+	public void setDsPolitica(String dsPolitica) {
+		this.dsPolitica = dsPolitica;
+	}
+	
 }
