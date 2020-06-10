@@ -16,5 +16,35 @@ public class Funcionalidade implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long idDuvida;
+	private long idFuncionalidade;
+	
+	private String nmFuncionalidade;
+	
+	private String dsFuncionalidade;
+
+	public long getIdFuncionalidade() {
+		return idFuncionalidade;
+	}
+
+	public void setIdFuncionalidade(long idFuncionalidade) {
+		this.idFuncionalidade = idFuncionalidade;
+	}
+
+	public String getNmFuncionalidade() {
+		return nmFuncionalidade;
+	}
+
+	public void setNmFuncionalidade(String nmFuncionalidade) {
+		this.nmFuncionalidade = nmFuncionalidade;
+	}
+
+	public String getDsFuncionalidade() {
+		return dsFuncionalidade;
+	}
+
+	public void setDsFuncionalidade(String dsFuncionalidade) {
+		this.dsFuncionalidade = dsFuncionalidade;
+	}
+	
+	
 }

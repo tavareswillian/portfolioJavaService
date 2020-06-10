@@ -33,12 +33,12 @@ public class UsuarioController {
 		return usuarioRepository.findById(idUsuario);
 	}
 	
-	@PostMapping("/usuario")
+	@PostMapping
 	public Usuario cadastraUsuario(@RequestBody Usuario usuario) {
 		return usuarioRepository.save(usuario);
 	}
 	
-	@DeleteMapping("/usuario")
+	@DeleteMapping
 	public void removeUsuario(@RequestBody Usuario usuario) {
 		usuarioRepository.delete(usuario);
 	}
@@ -48,7 +48,7 @@ public class UsuarioController {
 		usuarioRepository.deleteById(idUsuario);
 	}
 	
-	@PutMapping("/usuario")
+	@PutMapping
 	public Usuario atualizaUsuario(@RequestBody Usuario usuario) {
 		return usuarioRepository.save(usuario);
 	}

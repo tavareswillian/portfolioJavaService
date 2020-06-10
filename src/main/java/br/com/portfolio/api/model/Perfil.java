@@ -1,11 +1,13 @@
 package br.com.portfolio.api.model;
 
 import java.io.Serializable;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -22,6 +24,17 @@ public class Perfil implements Serializable{
 	
 	private String dsPerfil;
 	
+	@OneToMany(targetEntity=Permissao.class )
+	private List<Permissao> permissao;
+
+	public List<Permissao> getPermissao() {
+		return permissao;
+	}
+
+	public void setPermissao(List<Permissao> permissao) {
+		this.permissao = permissao;
+	}
+
 	public long getIdPerfil() {
 		return idPerfil;
 	}
