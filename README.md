@@ -15,12 +15,11 @@
 	</tr>
 </table>
 
-Projeto utilizando Spring Boot para criação de uma API REST para atendimento às interfaces relacionadas. Utilização de JPA para acesso ao banco de dados MySQL.
+Projeto construído com Spring Boot para criação de uma API REST que atenderá às interfaces relacionadas utilizando JPA para acesso ao banco de dados MySQL.
 
 
 - [x] **Definições do projeto**
   - [x] Criar repositório no GitHub
-  - [ ] Criar issue para controle das tarefas
 -------
 
 - [ ] **1 - Cadastro, Consulta, Atualização, Remoção e Listagem de**
