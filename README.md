@@ -57,4 +57,4 @@ Projeto construído com Spring Boot para criação de uma API REST que atenderá
 -------
 - [ ] **4 - Ferramentas**
   - [x] <img src="https://avatars2.githubusercontent.com/u/7658037?s=40&v=4"/> Swagger
-  - [ ] <img src="https://img.icons8.com/material/30/000000/log.png"/> Registro de log
+  - [ ] <img src="https://img.icons8.com/material/40/000000/log.png"/> Registro de log
