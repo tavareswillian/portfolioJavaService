@@ -1,6 +1,8 @@
 package br.com.portfolio.api.service;
 
-public class UsuarioService{
+import org.springframework.stereotype.Service;
 
+@Service
+public class UsuarioService{
 	
 }
