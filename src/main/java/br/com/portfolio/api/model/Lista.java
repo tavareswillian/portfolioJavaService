@@ -16,5 +16,33 @@ public class Lista implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long idDuvida;
+	private long idLista;
+	
+	private String nmLista;
+	
+	private String dsLista;
+
+	public long getIdLista() {
+		return idLista;
+	}
+
+	public void setIdLista(long idLista) {
+		this.idLista = idLista;
+	}
+
+	public String getNmLista() {
+		return nmLista;
+	}
+
+	public void setNmLista(String nmLista) {
+		this.nmLista = nmLista;
+	}
+
+	public String getDsLista() {
+		return dsLista;
+	}
+
+	public void setDsLista(String dsLista) {
+		this.dsLista = dsLista;
+	}
 }

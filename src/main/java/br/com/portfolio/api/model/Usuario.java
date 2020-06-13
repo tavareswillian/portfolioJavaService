@@ -7,6 +7,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -28,14 +30,15 @@ public class Usuario implements Serializable{
 	
 	private String flStatusSessao;
 	
-	@OneToMany(targetEntity=Perfil.class )
-	private List<Perfil> perfil;
+	@ManyToOne
+	@JoinColumn(name="idPerfil")
+	private Perfil perfil;
 	
-	public List<Perfil> getPerfil() {
+	public Perfil getPerfil() {
 		return perfil;
 	}
 
-	public void setPerfil(List<Perfil> perfil) {
+	public void setPerfil(Perfil perfil) {
 		this.perfil = perfil;
 	}
 
