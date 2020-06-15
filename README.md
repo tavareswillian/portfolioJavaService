@@ -2,7 +2,7 @@
 <table>
 	<tr>
 		<td>
-		<a href="https://medium.com/@mari_azevedo/construindo-uma-api-restful-com-java-e-spring-framework-46b74371d107">
+		<a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">
 			<img src="https://img.icons8.com/color/50/000000/api-settings.png"/>
 		</a>
 		<a href="https://spring.io/">
