@@ -17,4 +17,42 @@ public class Duvida implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long idDuvida;
+	
+	private String nmTitulo;
+	
+	private String dsConteudo;
+	
+	private String dsTipoDuvida;
+
+	public long getIdDuvida() {
+		return idDuvida;
+	}
+
+	public void setIdDuvida(long idDuvida) {
+		this.idDuvida = idDuvida;
+	}
+
+	public String getNmTitulo() {
+		return nmTitulo;
+	}
+
+	public void setNmTitulo(String nmTitulo) {
+		this.nmTitulo = nmTitulo;
+	}
+
+	public String getDsConteudo() {
+		return dsConteudo;
+	}
+
+	public void setDsConteudo(String dsConteudo) {
+		this.dsConteudo = dsConteudo;
+	}
+
+	public String getDsTipoDuvida() {
+		return dsTipoDuvida;
+	}
+
+	public void setDsTipoDuvida(String dsTipoDuvida) {
+		this.dsTipoDuvida = dsTipoDuvida;
+	}
 }
