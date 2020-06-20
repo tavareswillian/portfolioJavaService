@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.portfolio.api.model.Documento;
-import br.com.portfolio.api.model.Usuario;
+import br.com.portfolio.api.model.Documento;
 import br.com.portfolio.api.repository.DocumentoRepository;
 import io.swagger.annotations.ApiOperation;
 
@@ -33,31 +33,31 @@ public class DocumentoController {
 	
 	@GetMapping("/{idDocumento}")
 	@ApiOperation(value="Retorna um documentos através do seu ID")
-	public Optional<Documento> obtemUsuario(@PathVariable("idDocumento") long idDocumento) {
+	public Optional<Documento> obtemDocumento(@PathVariable("idDocumento") long idDocumento) {
 		return documentoRepository.findById(idDocumento);
 	}
 	
 	@PostMapping
 	@ApiOperation(value="Cadastra novo documento")
-	public Documento cadastraUsuario(@RequestBody Documento documento) {
+	public Documento cadastraDocumento(@RequestBody Documento documento) {
 		return documentoRepository.save(documento);
 	}
 	
 	@DeleteMapping
 	@ApiOperation(value="Remove um documento enviado no corpo da requisição")
-	public void removeUsuario(@RequestBody Documento documento) {
+	public void removeDocumento(@RequestBody Documento documento) {
 		documentoRepository.delete(documento);
 	}
 	
 	@DeleteMapping("/{idDocumento}")
 	@ApiOperation(value="Remove um documento através do seu ID")
-	public void removeUsuario(@PathVariable("idDocumento") long idDocumento) {
+	public void removeDocumento(@PathVariable("idDocumento") long idDocumento) {
 		documentoRepository.deleteById(idDocumento);
 	}
 	
 	@PutMapping
 	@ApiOperation(value="Atualiza um documento enviado no corpo da requisição")
-	public Documento atualizaUsuario(@RequestBody Documento documento) {
+	public Documento atualizaDocumento(@RequestBody Documento documento) {
 		return documentoRepository.save(documento);
 	}
 }
