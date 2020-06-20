@@ -17,4 +17,53 @@ public class Repositorio implements Serializable{
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long idRepositorio;
+	
+	private String nmRepositorio;
+	
+	private String dsEnderecoRepositorio;
+	
+	private String tipoRepositorio;
+	
+	private String flagUtilizarSSL;
+
+	public long getIdRepositorio() {
+		return idRepositorio;
+	}
+
+	public void setIdRepositorio(long idRepositorio) {
+		this.idRepositorio = idRepositorio;
+	}
+
+	public String getNmRepositorio() {
+		return nmRepositorio;
+	}
+
+	public void setNmRepositorio(String nmRepositorio) {
+		this.nmRepositorio = nmRepositorio;
+	}
+
+	public String getDsEnderecoRepositorio() {
+		return dsEnderecoRepositorio;
+	}
+
+	public void setDsEnderecoRepositorio(String dsEnderecoRepositorio) {
+		this.dsEnderecoRepositorio = dsEnderecoRepositorio;
+	}
+
+	public String getTipoRepositorio() {
+		return tipoRepositorio;
+	}
+
+	public void setTipoRepositorio(String tipoRepositorio) {
+		this.tipoRepositorio = tipoRepositorio;
+	}
+
+	public String getFlagUtilizarSSL() {
+		return flagUtilizarSSL;
+	}
+
+	public void setFlagUtilizarSSL(String flagUtilizarSSL) {
+		this.flagUtilizarSSL = flagUtilizarSSL;
+	}
+
 }
