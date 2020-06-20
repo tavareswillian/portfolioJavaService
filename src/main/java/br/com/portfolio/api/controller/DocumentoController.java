@@ -32,7 +32,7 @@ public class DocumentoController {
 	}
 	
 	@GetMapping("/{idDocumento}")
-	@ApiOperation(value="Retorna um documentos através do seu ID")
+	@ApiOperation(value="Retorna um documento através do seu ID")
 	public Optional<Documento> obtemDocumento(@PathVariable("idDocumento") long idDocumento) {
 		return documentoRepository.findById(idDocumento);
 	}

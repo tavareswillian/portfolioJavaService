@@ -31,31 +31,31 @@ public class DuvidaController {
 	}
 	
 	@GetMapping("/{idDuvida}")
-	@ApiOperation(value="Retorna um duvidas através do seu ID")
+	@ApiOperation(value="Retorna uma duvida através do seu ID")
 	public Optional<Duvida> obtemDuvida(@PathVariable("idDuvida") long idDuvida) {
 		return duvidaRepository.findById(idDuvida);
 	}
 	
 	@PostMapping
-	@ApiOperation(value="Cadastra novo duvida")
+	@ApiOperation(value="Cadastra nova duvida")
 	public Duvida cadastraDuvida(@RequestBody Duvida duvida) {
 		return duvidaRepository.save(duvida);
 	}
 	
 	@DeleteMapping
-	@ApiOperation(value="Remove um duvida enviado no corpo da requisição")
+	@ApiOperation(value="Remove um duvida enviada no corpo da requisição")
 	public void removeDuvida(@RequestBody Duvida duvida) {
 		duvidaRepository.delete(duvida);
 	}
 	
 	@DeleteMapping("/{idDuvida}")
-	@ApiOperation(value="Remove um duvida através do seu ID")
+	@ApiOperation(value="Remove uma duvida através do seu ID")
 	public void removeDuvida(@PathVariable("idDuvida") long idDuvida) {
 		duvidaRepository.deleteById(idDuvida);
 	}
 	
 	@PutMapping
-	@ApiOperation(value="Atualiza um duvida enviado no corpo da requisição")
+	@ApiOperation(value="Atualiza uma duvida enviada no corpo da requisição")
 	public Duvida atualizaDuvida(@RequestBody Duvida duvida) {
 		return duvidaRepository.save(duvida);
 	}

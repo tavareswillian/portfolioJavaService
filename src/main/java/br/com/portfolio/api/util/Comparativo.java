@@ -1,6 +1,10 @@
 package br.com.portfolio.api.util;
 
-public class Comparativo {
+import java.io.Serializable;
+
+public class Comparativo implements Serializable{
+
+	private static final long serialVersionUID = 1L;
 
 	private String dsAtributoInicial;
 	
