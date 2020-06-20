@@ -32,7 +32,7 @@ Projeto construído com Spring Boot para criação de uma API REST que atenderá
   - [x] <img src="https://img.icons8.com/color/30/000000/swiss-army-knife.png"/> Funcionalidades
   - [x] <img src="https://img.icons8.com/color/30/000000/privacy-policy.png"/> Políticas
   - [x] <img src="https://img.icons8.com/color/30/000000/wish-list.png"/> Listas
-  - [ ] <img src="https://img.icons8.com/windows/30/000000/github.png"/> Repositórios (local/web do usuário para facilitar o preenchimento)
+  - [x] <img src="https://img.icons8.com/windows/30/000000/github.png"/> Repositórios (local/web do usuário para facilitar o preenchimento)
   - [ ] <img src="https://img.icons8.com/cotton/30/000000/import-file.png"/> Documentos
   - [ ] <img src="https://img.icons8.com/color/30/000000/questions.png"/> Dúvidas
     - [ ] Explicação 
