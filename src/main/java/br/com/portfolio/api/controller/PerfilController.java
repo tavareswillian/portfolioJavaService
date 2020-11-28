@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.portfolio.api.model.Perfil;
-import br.com.portfolio.api.model.Perfil;
-import br.com.portfolio.api.repository.PerfilRepository;
 import br.com.portfolio.api.repository.PerfilRepository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

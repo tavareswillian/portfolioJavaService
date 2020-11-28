@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.portfolio.api.model.Documento;
-import br.com.portfolio.api.model.Documento;
 import br.com.portfolio.api.repository.DocumentoRepository;
 import io.swagger.annotations.ApiOperation;
 
