@@ -21,6 +21,12 @@ public class Funcionalidade implements Serializable{
 	private String nmFuncionalidade;
 	
 	private String dsFuncionalidade;
+	
+	private String sourcePage;
+	
+	private String pageLink;
+	
+	private String iconType;
 
 	public long getIdFuncionalidade() {
 		return idFuncionalidade;
@@ -44,6 +50,30 @@ public class Funcionalidade implements Serializable{
 
 	public void setDsFuncionalidade(String dsFuncionalidade) {
 		this.dsFuncionalidade = dsFuncionalidade;
+	}
+
+	public String getSourcePage() {
+		return sourcePage;
+	}
+
+	public void setSourcePage(String sourcePage) {
+		this.sourcePage = sourcePage;
+	}
+
+	public String getPageLink() {
+		return pageLink;
+	}
+
+	public void setPageLink(String pageLink) {
+		this.pageLink = pageLink;
+	}
+
+	public String getIconType() {
+		return iconType;
+	}
+
+	public void setIconType(String iconType) {
+		this.iconType = iconType;
 	}
 	
 	

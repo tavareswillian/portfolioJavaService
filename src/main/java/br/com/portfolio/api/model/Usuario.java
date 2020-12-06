@@ -31,6 +31,8 @@ public class Usuario implements Serializable{
 	@JoinColumn(name="idPerfil")
 	private Perfil perfil;
 	
+	private String idSessao;
+	
 	public Perfil getPerfil() {
 		return perfil;
 	}
@@ -77,6 +79,14 @@ public class Usuario implements Serializable{
 
 	public void setFlStatusSessao(String flStatusSessao) {
 		this.flStatusSessao = flStatusSessao;
+	}
+
+	public String getIdSessao() {
+		return idSessao;
+	}
+
+	public void setIdSessao(String idSessao) {
+		this.idSessao = idSessao;
 	}
 
 }
